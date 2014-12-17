@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo with jQuery</title>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <meta name="description" content="Demo project with jQuery">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+                            <style type="text/css">
+                                p{
+                                    margin: 20px;
+                                    padding-bottom: 20px;
+                                }
+                                .submit-section {
+                                    margin-top: 60px;
+                                }
+                            </style>
+                            </head>
+    <body>
+        <div class="container">
+            
+            <h3 class="text-center">Share Your Status</h3>
+            
+            <div class="text-section">
+                <p>
+                    Title: <input type="text" class="col-xs-12 col-sm-12 col-md-12" id="title" value="" />
+                </p>
+                <p>
+                Description: <br />
+                <textarea row="30" class="col-xs-12 col-sm-12 col-md-12" id="description" /></textarea>
+                </p>
+            </div>
+            
+            <div class="submit-section text-center">
+                <input type="button" class="btn btn-primary" onclick='window.location="postStatus"' value="Send" />
+            </div>
+            
+        </div>
+    </body>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+    </script>
+</html>

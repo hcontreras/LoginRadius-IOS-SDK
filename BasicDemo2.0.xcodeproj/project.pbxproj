@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F814F0FF1A3F533C00A5D4AA /* Login.html in Resources */ = {isa = PBXBuildFile; fileRef = F814F0FE1A3F533C00A5D4AA /* Login.html */; };
+		F814F1021A3F53BD00A5D4AA /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F814F1011A3F53BD00A5D4AA /* PostViewController.m */; };
 		F89438371A3A41AF00ED59A2 /* BasicProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89438361A3A41AF00ED59A2 /* BasicProfileViewController.m */; };
 		F89438481A3A45CC00ED59A2 /* libLoginRadius.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F89438431A3A45B000ED59A2 /* libLoginRadius.a */; };
 		F8AF1D351A3204E400FD33E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AF1D341A3204E400FD33E1 /* main.m */; };
@@ -16,8 +18,6 @@
 		F8AF1D431A3204E400FD33E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AF1D421A3204E400FD33E1 /* Images.xcassets */; };
 		F8AF1D461A3204E400FD33E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8AF1D441A3204E400FD33E1 /* LaunchScreen.xib */; };
 		F8AF1D521A3204E500FD33E1 /* BasicDemo2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AF1D511A3204E500FD33E1 /* BasicDemo2_0Tests.m */; };
-		F8D35E0A1A361DC100EE4391 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D35E091A361DC100EE4391 /* NSDictionary+QueryString.m */; };
-		F8D35E0D1A361ED700EE4391 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D35E0C1A361ED700EE4391 /* NSString+URLEncoding.m */; };
 		F8F881C41A3B9EB10081803C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F881C31A3B9EB10081803C /* Social.framework */; };
 		F8F881C61A3B9EB60081803C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F881C51A3B9EB60081803C /* Accounts.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F814F0FE1A3F533C00A5D4AA /* Login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Login.html; sourceTree = "<group>"; };
+		F814F1001A3F53BD00A5D4AA /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		F814F1011A3F53BD00A5D4AA /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 		F89438351A3A41AF00ED59A2 /* BasicProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicProfileViewController.h; sourceTree = "<group>"; };
 		F89438361A3A41AF00ED59A2 /* BasicProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicProfileViewController.m; sourceTree = "<group>"; };
 		F894383C1A3A45B000ED59A2 /* LoginRadius.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginRadius.xcodeproj; path = ../LoginRadiusSDK3.0/LoginRadius.xcodeproj; sourceTree = "<group>"; };
@@ -71,10 +74,6 @@
 		F8AF1D501A3204E500FD33E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8AF1D511A3204E500FD33E1 /* BasicDemo2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDemo2_0Tests.m; sourceTree = "<group>"; };
 		F8AF1D881A32090F00FD33E1 /* LoginRadiusConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRadiusConfiguration.h; sourceTree = "<group>"; };
-		F8D35E081A361DC100EE4391 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QueryString.h"; path = "../NSDictionary+QueryString.h"; sourceTree = "<group>"; };
-		F8D35E091A361DC100EE4391 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+QueryString.m"; path = "../NSDictionary+QueryString.m"; sourceTree = "<group>"; };
-		F8D35E0B1A361ED700EE4391 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "../NSString+URLEncoding.h"; sourceTree = "<group>"; };
-		F8D35E0C1A361ED700EE4391 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "../NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		F8F881C31A3B9EB10081803C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F8F881C51A3B9EB60081803C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -133,7 +132,10 @@
 		F8AF1D311A3204E400FD33E1 /* BasicDemo2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				F8D35E111A3625D000EE4391 /* Utilities */,
+				F8AF1D321A3204E400FD33E1 /* Supporting Files */,
+				F8AF1D421A3204E400FD33E1 /* Images.xcassets */,
+				F8AF1D3F1A3204E400FD33E1 /* Main.storyboard */,
+				F8AF1D441A3204E400FD33E1 /* LaunchScreen.xib */,
 				F8AF1D881A32090F00FD33E1 /* LoginRadiusConfiguration.h */,
 				F8AF1D361A3204E400FD33E1 /* AppDelegate.h */,
 				F8AF1D371A3204E400FD33E1 /* AppDelegate.m */,
@@ -141,10 +143,9 @@
 				F8AF1D3D1A3204E400FD33E1 /* DetailViewController.m */,
 				F89438351A3A41AF00ED59A2 /* BasicProfileViewController.h */,
 				F89438361A3A41AF00ED59A2 /* BasicProfileViewController.m */,
-				F8AF1D3F1A3204E400FD33E1 /* Main.storyboard */,
-				F8AF1D421A3204E400FD33E1 /* Images.xcassets */,
-				F8AF1D441A3204E400FD33E1 /* LaunchScreen.xib */,
-				F8AF1D321A3204E400FD33E1 /* Supporting Files */,
+				F814F1001A3F53BD00A5D4AA /* PostViewController.h */,
+				F814F1011A3F53BD00A5D4AA /* PostViewController.m */,
+				F814F0FE1A3F533C00A5D4AA /* Login.html */,
 			);
 			path = BasicDemo2.0;
 			sourceTree = "<group>";
@@ -173,17 +174,6 @@
 				F8AF1D501A3204E500FD33E1 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8D35E111A3625D000EE4391 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				F8D35E0B1A361ED700EE4391 /* NSString+URLEncoding.h */,
-				F8D35E0C1A361ED700EE4391 /* NSString+URLEncoding.m */,
-				F8D35E081A361DC100EE4391 /* NSDictionary+QueryString.h */,
-				F8D35E091A361DC100EE4391 /* NSDictionary+QueryString.m */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +283,7 @@
 			files = (
 				F8AF1D411A3204E400FD33E1 /* Main.storyboard in Resources */,
 				F8AF1D461A3204E400FD33E1 /* LaunchScreen.xib in Resources */,
+				F814F0FF1A3F533C00A5D4AA /* Login.html in Resources */,
 				F8AF1D431A3204E400FD33E1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,12 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D35E0D1A361ED700EE4391 /* NSString+URLEncoding.m in Sources */,
 				F8AF1D381A3204E400FD33E1 /* AppDelegate.m in Sources */,
 				F89438371A3A41AF00ED59A2 /* BasicProfileViewController.m in Sources */,
-				F8D35E0A1A361DC100EE4391 /* NSDictionary+QueryString.m in Sources */,
 				F8AF1D351A3204E400FD33E1 /* main.m in Sources */,
 				F8AF1D3E1A3204E400FD33E1 /* DetailViewController.m in Sources */,
+				F814F1021A3F53BD00A5D4AA /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = all;
 			};
@@ -469,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = all;
 			};

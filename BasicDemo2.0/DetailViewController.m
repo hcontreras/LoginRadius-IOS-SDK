@@ -29,8 +29,7 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    [LoginRadiusLoginViewController class];
-    LoginRadiusLoginViewController *loginViewController;
+    LoginRadiusLoginViewController *loginViewController = [[LoginRadiusLoginViewController alloc] init];
     loginViewController = segue.destinationViewController;
     loginViewController.siteName = CLIENT_SITENAME;
     loginViewController.apiKey = API_KEY;

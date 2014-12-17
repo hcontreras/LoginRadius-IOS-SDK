@@ -71,7 +71,7 @@
     
     // Retrieve data object from returned Dictionary
     NSDictionary *userProfile = [loginradiusUserData dictionaryForKey:@"userProfile"];
-    NSLog(@" User Profile : %@", userProfile);
+    //NSLog(@" User Profile : %@", userProfile);
     // Update UI
     NSLog(@"This is the second step");
     // Get data for all the labels.
