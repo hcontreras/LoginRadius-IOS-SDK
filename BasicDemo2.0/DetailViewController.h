@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <LoginRadius/loginViewController.h>
+#import <LoginRadius/LoginRadiusLoginViewController.h>
 
 @interface DetailViewController : UIViewController
 
